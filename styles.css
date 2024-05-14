@@ -1,0 +1,44 @@
+html{
+    background-color: #1a1a1af0
+}
+
+h1{
+    top: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+header{
+    margin: 0;
+    top: 0;
+    font-size: 35px;
+    font-weight: 300;
+    background-color: #9c9c9c71;
+    color: white;
+    border: 1px #f0f0f0f0 solid;
+    padding-left: 10px
+}
+.manage{
+    display: inline-block
+}
+.total{
+    background-color: rgb(0, 8, 246);
+    height: 500px;
+    width: 300px;
+    margin: 30px;
+    top: 100px;
+    bottom: 100px;
+    text-align: center;
+    border-radius: 20px;
+}
+.moisture{
+    background-color: rgb(0, 0, 0);
+    width: 300px;
+    height: 500px;
+    color: white;
+}
+.manage{
+    background-color: #9c9c9c71;
+    width: 1200px;
+    margin: 10px;
+    border: #f0f0f0f0 4px solid;
+    padding: 10px;
+}
