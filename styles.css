@@ -1,5 +1,6 @@
 html{
-    background-color: #1a1a1af0
+    background-color: #24242ef0;
+    align-items: center;
 }
 
 h1{
@@ -11,10 +12,11 @@ header{
     top: 0;
     font-size: 35px;
     font-weight: 300;
-    background-color: #9c9c9c71;
+    background-color: #332b4671;
     color: white;
-    border: 1px #f0f0f0f0 solid;
-    padding-left: 10px
+    border: 5px #1c1c1cf0 solid;
+    padding-left: 10px; 
+    border-radius: 50px;
 }
 .manage{
     display: inline-block
@@ -27,18 +29,31 @@ header{
     top: 100px;
     bottom: 100px;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 20px
 }
 .moisture{
     background-color: rgb(0, 0, 0);
     width: 300px;
     height: 500px;
     color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 .manage{
-    background-color: #9c9c9c71;
-    width: 1200px;
+    background-color: #2c253e71;
+    width: 80%;
     margin: 10px;
-    border: #f0f0f0f0 4px solid;
+    border: #1c1c1cf0 4px solid;
     padding: 10px;
+    margin: 50px 150px;
+    border-radius: 80px;
+    justify-content: center;
+    display: flexbox;
+}
+button{
+    border-radius: 10px; 
+    background-color: #f0f0f0f0;
+}
+button:hover{
+    background-color: greenyellow;
 }
