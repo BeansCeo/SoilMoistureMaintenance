@@ -33,4 +33,5 @@ void loop() {
     Serial.println(moisture);
   }
   delay(1000);
+digitalWrite(2, HIGH)
 };
